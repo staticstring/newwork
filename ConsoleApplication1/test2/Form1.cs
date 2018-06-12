@@ -28,6 +28,7 @@ namespace test2
                 Thread th = new Thread(PlayGame);
                 th.IsBackground = true;
                 th.Start();
+                //th.Join();
             }
             else
             {
